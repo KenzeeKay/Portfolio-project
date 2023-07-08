@@ -20,6 +20,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 20px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -112,7 +115,7 @@ p {
   }
 }
 .logo {
-  max-width: 150px;
+  max-height: 150px;
 }
 nav ul {
   padding: 0;
@@ -136,4 +139,31 @@ nav a:hover,
 nav li,
 active a {
   color: var(--branding-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer {
+  margin: 60px 0;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100px ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+footer .contact-box p {
+  margin: 0;
 }
