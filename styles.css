@@ -127,12 +127,13 @@ nav li {
 nav {
   padding: 20px;
 }
-nav a{
+nav a {
   text-decoration: none;
-  color: #272142:
+  color: #272142;
   transition: all 100ms ease-in-out;
 }
-nav a:hover{
+nav a:hover,
+nav li,
+active a {
   color: var(--branding-color);
 }
-
